@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap');
+
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+  line-height: 1.2;
+  color: #fff;
+  background-color: #27272A;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100vh;
+}
+.header {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  column-gap: 20px;
+  padding: 0 20px;
+  border-bottom: 1px solid #414144;
+
+  &__btn {
+    width: 24px;
+    height: 24px;
+    border: none;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+
+    &--menu {
+      background: url(/assets/menu.svg);
+    }
+    &--back {
+      background: url(/assets/arrow_back.svg);
+    }
+  }
+  &__list {
+    display: flex;
+    column-gap: 28px;
+    margin: 0;
+    padding: 0 0 0 8px;
+    list-style: none;
+    color: #A1A1AA;
+
+    li {
+      padding: 14px 0 12px;
+      border-bottom: 2px solid transparent;
+
+      &.active {
+        color: #fff;
+        border-bottom-color: #fff;
+      }
+    }
+  }
+}
+.content {
+  flex-grow: 1;
+  display: grid;
+  grid-template-columns: 234px 1fr;
+  grid-template-rows: auto 1fr;
+  
+  &-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #414144;
+
+    &__title {
+      margin: 0;
+      padding: 11px 15px;
+      font-size: 18px;
+      border-right: 1px solid #414144;
+    }
+  }
+}
+.menu {
+  border-right: 1px solid #414144;
+
+  &-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 10px 8px 20px;
+    border-bottom: 1px solid #414144;
+    border-right: 1px solid #414144;
+
+    &__title {
+      margin: 0;
+      color: #A1A1AA;
+
+      small {
+        display: block;
+        font-size: 10px;
+      }
+    }
+    &__btn {
+      width: 24px;
+      height: 24px;
+      background: url(/assets/arrow_down.svg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 100%;
+      border: none;
+      cursor: pointer;
+    }
+  }
+  &-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    li {
+      padding: 8px 20px 8px 56px;
+      background-image: url(/assets/navbutton.svg);
+      background-position: 22px center;
+      background-repeat: no-repeat;
+      background-size: 20px;
+
+      &.active {
+        background-color: #A1A1AA;
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/multi-level-data-table/static/css/main.9776db81.css",
+    "main.js": "/multi-level-data-table/static/js/main.3fdea5f3.js",
+    "static/media/delete.svg": "/multi-level-data-table/static/media/delete.df2853eebd981d1a9599.svg",
+    "index.html": "/multi-level-data-table/index.html",
+    "static/media/navbutton.svg": "/multi-level-data-table/static/media/navbutton.c444f5fba93e9eb66f7e.svg",
+    "static/media/document.svg": "/multi-level-data-table/static/media/document.5ea59ef5f7de97b761d6.svg",
+    "static/media/menu.svg": "/multi-level-data-table/static/media/menu.45cbe076f419143c894f.svg",
+    "static/media/arrow_back.svg": "/multi-level-data-table/static/media/arrow_back.49682383f631b0782017.svg",
+    "static/media/arrow_down.svg": "/multi-level-data-table/static/media/arrow_down.1bd7626cd799d67626ee.svg",
+    "main.9776db81.css.map": "/multi-level-data-table/static/css/main.9776db81.css.map",
+    "main.3fdea5f3.js.map": "/multi-level-data-table/static/js/main.3fdea5f3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9776db81.css",
+    "static/js/main.3fdea5f3.js"
+  ]
+}
